@@ -44,7 +44,7 @@ function gracefulShutdownHandler(signal: string) {
     httpsServer?.close(() => {
       logger.info('HTTPS server closed');
     });
-  }, 4000ç);
+  }, 4000);
 }
 
 process.on('SIGINT', gracefulShutdownHandler);

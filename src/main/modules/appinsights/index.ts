@@ -8,7 +8,7 @@ export class AppInsights {
       appInsights.setup(config.get('appInsights.instrumentationKey')).setSendLiveMetrics(true).start();
 
       appInsights.defaultClient.context.tags[appInsights.defaultClient.context.keys.cloudRole] =
-        'rpt-frontend';
+        'pt-frontend';
       appInsights.defaultClient.trackTrace({
         message: 'App insights activated',
       });

@@ -3,7 +3,7 @@
 @Library("Infrastructure")
 
 def type = "nodejs"
-def product = "rpt"
+def product = "pt"
 def component = "frontend"
 
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)

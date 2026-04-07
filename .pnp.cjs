@@ -7649,10 +7649,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axe-core", [\
-      ["npm:4.8.4", {\
-        "packageLocation": "./.yarn/cache/axe-core-npm-4.8.4-27f3e5418e-c8b3972b17.zip/node_modules/axe-core/",\
+      ["npm:4.12.0", {\
+        "packageLocation": "./.yarn/cache/axe-core-npm-4.12.0-27f3e5418e-c8b3972b17.zip/node_modules/axe-core/",\
         "packageDependencies": [\
-          ["axe-core", "npm:4.8.4"]\
+          ["axe-core", "npm:4.12.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16156,7 +16156,7 @@ const RAW_RUNTIME_STATE =
       ["npm:8.0.0", {\
         "packageLocation": "./.yarn/cache/pa11y-npm-8.0.0-5516e74ddf-ca73ab1c95.zip/node_modules/pa11y/",\
         "packageDependencies": [\
-          ["axe-core", "npm:4.8.4"],\
+          ["axe-core", "npm:4.12.0"],\
           ["bfj", "npm:8.0.0"],\
           ["commander", "npm:12.0.0"],\
           ["envinfo", "npm:7.11.1"],\

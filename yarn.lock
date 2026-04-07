@@ -4833,9 +4833,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-core@npm:~4.8.4":
-  version: 4.8.4
-  resolution: "axe-core@npm:4.8.4"
+"axe-core@npm:~4.12.0":
+  version: 4.12.0
+  resolution: "axe-core@npm:4.12.0"
   checksum: 10/c8b3972b17afac33b9e151556fa500b9218086ca763866942de30e7f51ac50582902ad03ec16381796c95afaacfa8c33efb2d02ab4f09b6c09d6be58b95da978
   languageName: node
   linkType: hard
@@ -12055,7 +12055,7 @@ __metadata:
   version: 8.0.0
   resolution: "pa11y@npm:8.0.0"
   dependencies:
-    axe-core: "npm:~4.8.4"
+    axe-core: "npm:~4.12.0"
     bfj: "npm:~8.0.0"
     commander: "npm:~12.0.0"
     envinfo: "npm:~7.11.1"

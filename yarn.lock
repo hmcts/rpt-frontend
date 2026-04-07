@@ -13318,9 +13318,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rpt-frontend@workspace:.":
+"pt-frontend@workspace:.":
   version: 0.0.0-use.local
-  resolution: "rpt-frontend@workspace:."
+  resolution: "pt-frontend@workspace:."
   dependencies:
     "@babel/core": "npm:^7.26.10"
     "@babel/eslint-parser": "npm:7.28.0"

@@ -9,3 +9,12 @@ nodejs:
   #      secrets:
   #        - AppInsightsInstrumentationKey
   environment:
+
+redis:
+  enabled: false
+  architecture: standalone
+  master:
+    persistence:
+      enabled: false
+  auth:
+    enabled: false

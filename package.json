@@ -65,7 +65,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.10",
+    "@babel/core": "^7.29.0",
     "@babel/eslint-parser": "7.28.0",
     "@babel/preset-env": "^7.26.9",
     "@codeceptjs/allure-legacy": "^1.0.2",
@@ -147,7 +147,8 @@
     "flatted": "~3.4.2",
     "picomatch": "~4.0.4",
     "brace-expansion": "~5.0.5",
-    "path-to-regexp": "~8.4.0"
+    "path-to-regexp": "~8.4.0",
+    "@tootallnate/once": "3.0.1"
   },
   "packageManager": "yarn@4.8.1"
 }

@@ -36,6 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
+          ["@tootallnate/once", "npm:3.0.1"],\
           ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai", "npm:5.2.2"],\
           ["@types/chai-as-promised", "npm:7.1.8"],\
@@ -16997,6 +16998,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
+          ["@tootallnate/once", "npm:3.0.1"],\
           ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai", "npm:5.2.2"],\
           ["@types/chai-as-promised", "npm:7.1.8"],\

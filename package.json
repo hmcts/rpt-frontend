@@ -5,6 +5,9 @@
   "engines": {
     "node": ">=12.0.0"
   },
+  "imports": {
+    "#src/*": "./src/*"
+  },
   "scripts": {
     "start": "NODE_ENV=production ts-node -r tsconfig-paths/register src/main/server.ts",
     "start:dev": "nodemon --config nodemon.json",
@@ -33,7 +36,6 @@
     "@types/csurf": "1.11.5",
     "@types/es6-promisify": "6.0.4",
     "@types/glob": "8.1.0",
-    "@types/helmet": "^4.0.0",
     "@types/lodash": "4.14.195",
     "@types/nunjucks": "3.2.6",
     "@types/require-directory": "2.1.6",
@@ -42,7 +44,6 @@
     "body-parser": "2.2.1",
     "config": "3.3.12",
     "cookie-parser": "1.4.7",
-    "csurf": "1.11.0",
     "express": "5.1.0",
     "express-nunjucks": "3.1.2",
     "express-rate-limit": "^7.5.0",
@@ -64,14 +65,16 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.10",
+    "@babel/core": "^7.29.0",
     "@babel/eslint-parser": "7.28.0",
     "@babel/preset-env": "^7.26.9",
     "@codeceptjs/allure-legacy": "^1.0.2",
     "@codeceptjs/configure": "^0.10.0",
+    "@tootallnate/once": "^3.0.1",
     "@types/chai": "^5.2.1",
     "@types/chai-as-promised": "7.1.8",
     "@types/express": "4.17.23",
+    "@types/express-session": "^1.18.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.14.1",
     "@types/pa11y": "^5.3.7",
@@ -132,7 +135,20 @@
     "superagent": "^10.2.2",
     "form-data": "^4.0.1",
     "js-yaml": "^4.1.1",
-    "glob": "^10.5.0"
+    "glob": "^13.0.1",
+    "qs": "^6.14.2",
+    "diff": "^8.0.3",
+    "tar": "~7.5.9",
+    "lodash": "~4.18.1",
+    "ajv@^6.12.4": "^6.14.0",
+    "ajv@^8.0.1": "^8.18.0",
+    "ajv@^8.9.0": "^8.18.0",
+    "axios": "~1.15.0",
+    "minimatch": "~10.2.3",
+    "flatted": "~3.4.2",
+    "picomatch": "~4.0.4",
+    "brace-expansion": "~5.0.5",
+    "path-to-regexp": "~8.4.0"
   },
   "packageManager": "yarn@4.8.1"
 }
